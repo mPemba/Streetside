@@ -1,0 +1,158 @@
+body {
+  background-color: #fcfaf4;
+}
+div {
+  padding: 15px 15px 15px 15px;
+}
+p {
+  padding: 5px 5px 5px 5px;
+}
+
+/*HEADER*/
+div#header {
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+  height: 275px;
+  background: url("https://scontent-a-sjc.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10534630_752991704766567_5738981610169716873_n.jpg?oh=11e366ed409687b3b13fc8c89305d160&oe=552FF586");
+}
+h1 {
+  font-size: 3em;
+}
+
+/*NAVBAR*/
+ul#navBar {
+  height: 40px;
+  text-align: center;
+  background-color: gray;
+}
+.nav {
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  background-color: gray;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'verdana', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.nav:hover {
+  background-color: #666666;
+}
+
+/*ABOUT US*/
+div#aboutUs {
+  background-color: #8e1e19;
+  padding: 0px 100px 0px 100px;
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+  border: 1px solid black;
+}
+h3.aboutUs {
+  font-size: 2em;
+}
+p.aboutUs {
+  font-size: 1em;
+  font-family: 'verdana', sans-serif;
+}
+#transbox {
+  text-align: center;
+  width: 900px;
+  height: 200px;
+  margin: 30px 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/*COFFEE*/
+div#coffee {
+  color: #fcfaf4;
+  background-color: #251e20;
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+}
+div#beans {
+  margin: 0px 5px 10px 5px;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid white;
+  background-color: gray;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+div#beans:hover {
+  background-color: #666666;
+}
+/*CB stands for coffee beans*/
+p.CB {
+  padding: 5px;
+}
+
+/*TEA*/
+div#tea {
+  background-color: #8e1e19;
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+}
+div#leaves {
+  background-color: gray;
+  color: white;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin: 0px 5px 10px 5px;
+}
+div#leaves:hover {
+  background-color: #666666;
+}
+/* TL - stand for Tea Leaves */
+p.TL {
+  padding: 5px 5px 5px 5px;
+}
+
+/*CONTACT US*/
+div#contact {
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+}
+
+/*FACEBOOK BUTTON*/
+div#fbButton {
+  border-radius: 5px;
+  border: 2px solid #6495ed;
+  background-color: #bcd2ee;
+  height: 50px;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+}
+div#fbButton:hover {
+  background-color: #AEC7EB;
+}
+a.fb {
+  text-decoration: none;
+  color: #3d59ab;
+  font-family: 'arial', sans-serif;
+  display: block;
+}
+span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+/*FOOT*/
+div#footer {
+  border: 1px solid #ffffff;
+  height: 500px;
+  margin-left: 125px;
+  background: url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10622833_765753650157039_8154922199824369524_n.jpg?oh=ed7411b33add1f2e2c04e1e583b0d4dd&oe=55228D2A&__gda__=1429849408_b39bfaf4c0f6217acece669000764f64");
+  background-repeat: no-repeat;
+}
